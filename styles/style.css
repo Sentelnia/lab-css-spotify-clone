@@ -61,7 +61,6 @@ header {
 }
 
 .whatson h2 {
-  text-align: center;
   text-decoration: none;
 }
 
@@ -73,7 +72,7 @@ header {
     border-bottom: 4px solid #00B172;
 }
 
-h3{
+.whatson .block h3 {
   font-size: 30px;
   color: #00B172;
 }
@@ -82,7 +81,8 @@ h3{
   width : 150px;
 }
 
-.whatson .block p{
+.whatson .block p,
+.kanye .block p {
   font-size: 25px;
 }
 
@@ -107,6 +107,7 @@ h3{
   margin: 40px;
   position: relative;
   height: 95vh;
+  color:#FFF
 }
 
 .kanye .whitelogo {
@@ -125,5 +126,15 @@ h3{
   transform: translate(-50%, -50%);
 }
 
+.kanye .title {
+  height: 60px;
+  width: max-content;
+  font-size: 30px;
+  border-bottom: 4px solid #FFF;
+  color: #FFF
+}
 
-   
+.kanye .block h3 {
+  font-size: 30px;
+}
+
