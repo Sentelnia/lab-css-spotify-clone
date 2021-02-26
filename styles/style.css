@@ -102,7 +102,28 @@ h3{
     justify-content: center;
 }
 
+.kanye {
+  background-color: #00B172;
+  margin: 40px;
+  position: relative;
+  height: 95vh;
+}
 
+.kanye .whitelogo {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kanye .spotifyapp {
+  width: 425px;
+  position: absolute;
+  top: 50%;
+  right: -5%;
+  transform: translate(-50%, -50%);
+}
 
 
    
