@@ -104,14 +104,14 @@ header {
 
 .kanye {
   background-color: #00B172;
-  margin: 40px;
+  margin: 100px;
   position: relative;
-  height: 95vh;
+  height: 90vh;
   color:#FFF
 }
 
 .kanye .whitelogo {
-  width: 150px;
+  width: 200px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -119,22 +119,37 @@ header {
 }
 
 .kanye .spotifyapp {
-  width: 425px;
+  width: 350px;
   position: absolute;
   top: 50%;
   right: -5%;
   transform: translate(-50%, -50%);
 }
 
-.kanye .title {
+.kanye .yeezy .title {
   height: 60px;
   width: max-content;
   font-size: 30px;
   border-bottom: 4px solid #FFF;
-  color: #FFF
+  color: #FFF;
+  
 }
 
-.kanye .block h3 {
+.kanye .yeezy .block h3 {
   font-size: 30px;
+  margin-top: 50px;
+}
+
+.kanye .yeezy .block div {
+  width: 350px;
+  margin-top: 70px;
+}
+
+.kanye .yeezy {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  transform: translate(-50%, -50%);
 }
 
