@@ -6,25 +6,103 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+html,
+body {
+  font-family: "roboto";
+  margin: 0;
+  padding: 0;
+}
 
-  nav {
-    /*position: fixed;*/
+nav {
+  /*position: fixed;*/
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.spotifyLogo {
+   width : 200px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 45px;
+  font-size: 30px;
+}
+
+header {
+  background:url("../images/landing.jpg") center no-repeat;
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+
+.everyone {
+  color:#FFF;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  text-align: center;
+}
+
+.everyone h1{
+  font-size: 105px;
+}
+
+.everyone p {
+  font-size: 40px;
+}
+
+.whatson h2 {
+  text-align: center;
+  text-decoration: none;
+}
+
+.whatson .title {
+    height: 60px;
+    width: max-content;
+    font-size: 30px;
+    margin: auto;
+    border-bottom: 4px solid #00B172;
+}
+
+h3{
+  font-size: 30px;
+  color: #00B172;
+}
+
+.whatson .block img{
+  width : 150px;
+}
+
+.whatson .block p{
+  font-size: 25px;
+}
+
+.whatson .block {
+  display: flex;
+  text-align: center;
+  justify-content: space-around ;
+  margin: 70px 40px;
+}
+
+.whatson .block div{
     display: flex;
-    justify-content: space-between;
-    margin: 20px auto;
-  }
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+}
 
-  .spotifyLogo {
-    width : 200px;
-  }
 
-  nav ul{
-    list-style: none;
-    display: flex;
-  }
 
-  nav li {
-    margin-right: 40px;
-  }
 
    
